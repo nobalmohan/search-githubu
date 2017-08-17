@@ -1,0 +1,61 @@
+.main-container {
+  margin: 10% auto;
+  width: 600px;
+  border: 1px solid #ccc;
+}
+
+.search-container {
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #ccc;
+  padding: 5%;
+  .search-block {
+    margin-bottom: 5%;
+  }
+}
+
+.result-container {
+  margin: 0;
+  padding: 0;
+}
+
+.repo-name {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 30px;
+}
+
+.go-btn {
+  background-color: #76C853;
+  color: #fff;
+  outline: none;
+  padding: 8px 15px;
+  border: 1px solid #76C853;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.clear-btn {
+  color: #A12C21;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #F4F4F4;
+  outline: none;
+}
+
+.data-input {
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 50%;
+}
+
+.highlighted {
+  background-color: yellow; 
+}

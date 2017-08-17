@@ -1,0 +1,19 @@
+<div class="main-container">
+  <div class="search-container">
+     <div class="search-block">
+       <input type="text" class="data-input" ng-model="usename">
+       <button class="go-btn" ng-click="main.searchUser(usename);">Go</button>
+       <button class="clear-btn" ng-click="main.clearAll();">Clear</button>
+     </div>
+     <div>
+       <input type="text" class="data-input" ng-model="query" placeholder="Enter some keywords to filter">
+       <button class="clear-btn" ng-click="main.clearResults();">Clear</button>
+     </div>
+  </div>
+  <ul class="result-container">
+    <li class="repo-name" ng-repeat="data in main.repoData | filter:query | highlightWord : query | orderBy: 'name'">
+      {{data.name}}
+    </li>
+  </ul>
+
+</div>
