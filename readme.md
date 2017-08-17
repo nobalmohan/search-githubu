@@ -1,6 +1,6 @@
-#Install
+## Install
 npm install
 bower install
 
-#Run
+## Run
 gulp serve
